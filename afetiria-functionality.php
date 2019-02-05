@@ -106,7 +106,7 @@ if( !class_exists( 'AFP' ) ) {
 			require_once AFP_PLUGIN_DIR . 'includes/class-afp-clean-up-head.php';
 			require_once AFP_PLUGIN_DIR . 'includes/class-afp-add-mime-types.php';
 
-
+			require_once AFP_PLUGIN_DIR . 'includes/carbon-fields.php';
 			require_once AFP_PLUGIN_DIR . 'includes/template-functions.php';
 			require_once AFP_PLUGIN_DIR . 'includes/class-afp-init.php';
 		}

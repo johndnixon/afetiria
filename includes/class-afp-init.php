@@ -18,7 +18,7 @@ class AFP_Init {
 	public function __construct() {
 
 		$register_post_types     = new AFP_Register_Post_Types();
-		$register_taxonomies     = new AFP_Register_Taxonomies();
+		//$register_taxonomies     = new AFP_Register_Taxonomies();
 		$clean_up_head		     = new AFP_Clean_Up_Head();
 		$add_mime_types		     = new AFP_Add_Mime_Types();
 
