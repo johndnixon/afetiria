@@ -1,7 +1,7 @@
 <?php
 /**
  * @package     AFP
- * @link      	https://github.com/jawittdesigns/
+ * @link      	https://github.com/johndnixon/afetiria
  * @copyright   Copyright (c) 2019, John Nixon
  * @license     http://opensource.org/licenses/gpl-2.0.php GNU Public License
  * @since       1.0.0
@@ -9,7 +9,7 @@
  *
  * @wordpress-plugin
  * Plugin Name:       Afetiria Functionaliy
- * Plugin URI:        https://github.com/jawittdesigns/
+ * Plugin URI:        https://github.com/johndnixon/afetiria
  * Description:       Key functionality plugin for website
  * Version:           1.0.0
  * Author:            John Nixon
