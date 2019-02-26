@@ -40,15 +40,15 @@ class AFP_Register_Taxonomies {
             'edit_item'                  => __( 'Edit ' . $labelSettings[1], 'afp' ),
             'update_item'                => __( 'Update ' . $labelSettings[1], 'afp' ),
             'view_item'                  => __( 'View ' . $labelSettings[1], 'afp' ),
-            'separate_items_with_commas' => __( 'Separate speakers with commas', 'afp' ),
+            'separate_items_with_commas' => __( 'Separate ' . $labelSettings[0] . ' with commas', 'afp' ),
             'add_or_remove_items'        => __( 'Add or remove ' . $labelSettings[1], 'afp' ),
             'choose_from_most_used'      => __( 'Choose from the most used', 'afp' ),
             'popular_items'              => __( 'Popular ' . $labelSettings[1], 'afp' ),
             'search_items'               => __( 'Search ' . $labelSettings[1], 'afp' ),
             'not_found'                  => __( 'Not Found', 'afp' ),
             'no_terms'                   => __( 'No ' . $labelSettings[1], 'afp' ),
-            'items_list'                 => __( 'Speakers list', 'afp' ),
-            'items_list_navigation'      => __( 'Speakers list navigation', 'afp' ),
+            'items_list'                 => __( $labelSettings[0] . ' list', 'afp' ),
+            'items_list_navigation'      => __( $labelSettings[0] . ' list navigation', 'afp' ),
         );
         $args = wp_parse_args( $args, array(
             'labels'                     => $labels,
