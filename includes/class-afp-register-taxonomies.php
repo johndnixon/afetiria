@@ -21,7 +21,7 @@ class AFP_Register_Taxonomies {
 
     function register_taxonomies(  ) {
         // $this->set_up_taxonomy(
-        //     array( 'Plural', 'Singular', 'tax-slug', 'tax-key' ),
+        //     array( 'Plural', 'Singular', 'tax-slug', 'post type key' ),
         //     array( 'hierarchical' => true )
         // );
     }
